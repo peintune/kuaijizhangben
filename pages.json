@@ -1,0 +1,161 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/zhangdan/zhangdan",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "账单",
+		        "enablePullDownRefresh": false				
+		    }
+		},	
+		{
+		    "path" : "pages/zhangben/zhangben-xinzeng",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新增账本",
+		        "enablePullDownRefresh": false				
+		    }
+		},
+		{
+		    "path" : "pages/zhangben/zhangben",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "账本管理",
+		        "enablePullDownRefresh": false				
+		    } 
+		}
+        ,{
+            "path" : "pages/tongji/tongji",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "统计",
+                "enablePullDownRefresh": false
+            }  
+        }
+		,{
+		    "path" : "pages/zhanghu/zhanghu",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "账户",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/wode/wode",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            } 
+        },{
+            "path" : "pages/wode/user_setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户设置",
+                "enablePullDownRefresh": false
+            } 
+        }
+        ,{
+            "path" : "pages/zhanghu/zhanghu-xinzeng",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增/编辑账户",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/wode/fankui",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提交反馈",
+                "enablePullDownRefresh": false
+            }   
+        }
+		,{
+		    "path" : "pages/wode/guanyu",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "关于我们",
+		        "enablePullDownRefresh": false
+		    }   
+		}
+		,{
+		    "path" : "pages/h5/yinsixieyi",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "隐私协议",
+		        "enablePullDownRefresh": false
+		    }   
+		}
+		,{
+		    "path" : "pages/h5/yonghuzhengce",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "用户协议",
+		        "enablePullDownRefresh": false
+		    }   
+		},{
+		    "path" : "pages/wode/mobile_sign",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "手机号登录",
+		        "enablePullDownRefresh": false				
+		    }
+		},	{
+		    "path" : "pages/wode/mobile_valid",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "短信验证",
+		        "enablePullDownRefresh": false				
+		    }
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "快记账本",
+		"navigationStyle":"custom",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"condition": { //模式配置，仅开发期间生效
+			"current": 1, //当前激活的模式（list 的索引项）
+			"list": [
+			{
+				"path":"pages/zhangdan/zhangdan",
+				"name":"首页"
+			},
+			{
+				"path":"pages/tongji/tongji",
+				"name":"统计"
+			},
+			{
+				"path":"pages/zhanghu/zhanghu",
+				"name":"账户"
+			},
+			{
+				"path":"pages/wode/wode",
+				"name":"我的"
+			}]
+		}
+	,"tabBar":{
+		"color":"#000000",
+		"selectedColor":"#5a79ff",
+		"borderStyle":"black",
+		"backgroundColor":"#ffffff",
+		"height": "0rpx",
+		"list":[
+			{
+				"pagePath":"pages/zhangdan/zhangdan"
+			},
+			{
+				"pagePath":"pages/tongji/tongji"
+			},
+			{
+				"pagePath":"pages/zhanghu/zhanghu"
+			},
+			{
+				"pagePath":"pages/wode/wode"
+			}
+		]
+	}
+}

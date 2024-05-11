@@ -1,0 +1,21 @@
+{
+    "id": "ccq-week-picker",
+    "name": "周选择Picker",
+    "version": "1.2.2",
+    "description": "通过dayjs获取周信息，可跨月获取周信息",
+    "keywords": [
+        "周",
+        "日期选择",
+        "日期弹出层",
+        "星期"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    },
+    "dependencies": {
+        "dayjs": "^1.11.6"
+    }
+}
